@@ -7,3 +7,11 @@ function greetUser(name) {
 
 // Call the function with a sample name
 greetUser('Student');
+// Function to calculate the sum of two numbers
+function calculateSum(a, b) {
+    return a + b;
+}
+
+// Call the function with sample numbers and log the result
+const sum = calculateSum(5, 10);
+console.log(`The sum of 5 and 10 is: ${sum}`);
